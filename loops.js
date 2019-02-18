@@ -29,7 +29,11 @@ function doWhileLoop(int) {
     return i;
   }
   do { console.log('I run once regardless.');
+<<<<<<< HEAD
   } while (incrementVariable() < int);
+=======
+  } while (incrementVariable() <= int);
+>>>>>>> bdeda18958e901b912913203d9a4acfa16f6359b
   }
 
 
